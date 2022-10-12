@@ -55,3 +55,22 @@ input, output
 	cursor: pointer;
 	transition: 0.4s;
 }
+
+.task_add:hover {
+	opacity: 0.8;
+}
+
+.task_add:active{
+opacity: 0.5;
+}
+
+.task-list{
+	padding: 1rem;
+}
+
+.task_list > h2{
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: whitesmoke;
+	margin-bottom: 1rem;
+}
