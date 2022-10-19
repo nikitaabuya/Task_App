@@ -13,6 +13,13 @@ form.addEventListener('submit', (e)=> {
 
     const task_content_el = document.createElement('div');
     task_content_el.classList.add('content');
+
+    task_el.appendChild(task_content_el);
+
+    const task_input_el = document.createElement('input');
+    task_input_el.classList.add('text');
+    task_input_el.type = 'text';
+    task_input_el.value = task;
 })
 
 
