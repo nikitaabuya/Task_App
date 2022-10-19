@@ -1,6 +1,6 @@
 *{
 	margin: 0;
-	
+
 	/* box-sizing informs browser how to calculate page width*/
 	/* border-box: width and height properties*/
 	/* content-box: the width and height properties (and min/max properties)*/
@@ -108,8 +108,6 @@ main {
 	margin-bottom: 1rem;
 }
 
-margin-bottom: 1rem;
-}
 
 #tasks .task {
 	display: flex;
