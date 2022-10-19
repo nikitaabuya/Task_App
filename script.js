@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-form");
     const input = document.querySelector('#new-task-input');
     const list_el = document.querySelector('#tasks');
-=======
-<<<<<<< HEAD
-window.addEventListener('load', ()=>{
->>>>>>> d8638337e78e875b768ea15361269075bc01f4f1
 
     form.addEventListener('submit', (e) => {
         // Prevent page from reloading when submit button is clicked
@@ -47,7 +42,6 @@ window.addEventListener('load', ()=>{
         task_del_el.classList.add('delete');
         task_del_el.innerText = 'Delete';
 
-<<<<<<< HEAD
         task_action_el.appendChild(task_edit_el);
         task_action_el.appendChild(task_del_el);
 
@@ -72,9 +66,3 @@ window.addEventListener('load', ()=>{
         });
     });
 });
-=======
-});
-=======
-console.log("I am a script");
->>>>>>> 5b6d413 (change4)
->>>>>>> d8638337e78e875b768ea15361269075bc01f4f1
