@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.addEventListener('load', ()=>{
 
 const form = document.querySelector("#new-task-form");
@@ -27,3 +28,6 @@ form.addEventListener('submit', (e)=> {
 
 
 });
+=======
+console.log("I am a script");
+>>>>>>> 5b6d413 (change4)

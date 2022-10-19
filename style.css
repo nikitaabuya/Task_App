@@ -1,6 +1,9 @@
 *{
 	margin: 0;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5b6d413 (change4)
 	/* box-sizing informs browser how to calculate page width*/
 	/* border-box: width and height properties*/
 	/* content-box: the width and height properties (and min/max properties)*/
@@ -9,8 +12,11 @@
 }
 
 body{
+<<<<<<< HEAD
 	/* The display property specifies the display behavior (the type of rendering box) of an element. */
 	/* The flex property sets the flexible length on flexible items */
+=======
+>>>>>>> 5b6d413 (change4)
 	/*display - flexDisplays an element as a block-level flex container*/
 	display: flex;
 	flex-direction: column;
@@ -21,7 +27,11 @@ body{
 	background-color: #374151;
 }
 
+<<<<<<< HEAD
 header {
+=======
+header{
+>>>>>>> 5b6d413 (change4)
 	/*the rem unit means "The root element's font-size" */
 	padding: 2rem 1rem;
 	max-width: 800px;
@@ -42,12 +52,17 @@ header {
 	display:flex;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5b6d413 (change4)
 input, button {
 	appearance: none;
 	border: none;
 	outline: none;
 	background: none;
 }
+<<<<<<< HEAD
 .task_input {
 	flex: 1 1 0%;
 	background-color: lightgoldenrodyellow;
@@ -56,6 +71,8 @@ input, button {
 	margin-right: 1rem;
 	font-size: 1.25rem;
 }
+=======
+>>>>>>> 5b6d413 (change4)
 
 /* A CSS pseudo-element is used to style specified parts of an element. */
 /* Style the first letter, or line, of an element */
@@ -89,6 +106,7 @@ input, button {
 opacity: 0.5;
 }
 
+<<<<<<< HEAD
 main {
 	/* flex-grow flex-shrink flex-basis|auto|initial|inherit; */
 	flex: 1 1 0%;
@@ -97,6 +115,8 @@ main {
 	margin: 0 auto;
 }
 
+=======
+>>>>>>> 5b6d413 (change4)
 .task-list{
 	padding: 1rem;
 }
@@ -106,6 +126,7 @@ main {
 	font-weight: 300;
 	color: whitesmoke;
 	margin-bottom: 1rem;
+<<<<<<< HEAD
 }
 
 
@@ -171,4 +192,6 @@ main {
 
 .task .actions .delete {
 	color: red;
+=======
+>>>>>>> 5b6d413 (change4)
 }
