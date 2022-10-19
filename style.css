@@ -1,5 +1,6 @@
 *{
 	margin: 0;
+	
 	/* box-sizing informs browser how to calculate page width*/
 	/* border-box: width and height properties*/
 	/* content-box: the width and height properties (and min/max properties)*/
@@ -8,6 +9,8 @@
 }
 
 body{
+	/* The display property specifies the display behavior (the type of rendering box) of an element. */
+	/* The flex property sets the flexible length on flexible items */
 	/*display - flexDisplays an element as a block-level flex container*/
 	display: flex;
 	flex-direction: column;
@@ -18,7 +21,7 @@ body{
 	background-color: #374151;
 }
 
-header{
+header {
 	/*the rem unit means "The root element's font-size" */
 	padding: 2rem 1rem;
 	max-width: 800px;
