@@ -8,15 +8,31 @@
 	<title>My CRUD Task List</title>
 	<link rel="stylesheet" href="style.css" />
 </head>
+<script type ="text/javascript">
+	function validate()
+	{var text = document.getElementById("new-task-input");
+
+	if (text.value == "")
+	{
+		alert("Please enter a task");
+	}
+	else
+	{
+
+	}
+}
+
+</script>
 
 <body>
 	<header>
 		<h1 class="task_list_main">My Task Planner</h1>
-		<form name="task_form" id="new-task-form" class="new_task_form">
-			<input type="text" name="new-task-input" class="task_input" id="new-task-input"
-				placeholder="What do you have planned?" />
+		<form name="task_form" id="new-task-form" class="new_task_form" onsubmit="return emptyValidation()" required>
+			<input type="text" name="new_task_input" class="task_input" id="new-task-input"
+				placeholder="What do you have planned?" />	
 
-			<input type="submit" id="new-task-submit" class="task_add" value="Add Task" />
+
+			<input onclick="validate()" type="submit" id="new-task-submit" class="task_add" value="Add Task" />
 		</form>
 	</header>
 	<main>
