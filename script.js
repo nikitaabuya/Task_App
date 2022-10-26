@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
 
         // create a variable and assign the value of task input
         const task = input.value;
-        // create a div element and assin it to variable task_el
+        // create a div element and assign it to variable task_el
         const task_el = document.createElement('div');
         // assign the class 'task' to the element created
         task_el.classList.add('task');
